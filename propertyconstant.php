@@ -1,4 +1,4 @@
-```php
+
 <?php
 
 class produk {
@@ -24,7 +24,7 @@ class produk {
         return self::PAJAK * 100;
     }
 
-    // Method total harga
+    // Method total
     public function total() {
         return $this->harga + ($this->harga * self::PAJAK);
     }
@@ -47,4 +47,3 @@ echo "<br><br>";
 echo "Total Harga Setelah Pajak: Rp. " . $produk->total();
 
 ?>
-```
